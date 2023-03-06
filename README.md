@@ -4,7 +4,7 @@ In this project, we developed an image-based Sudoku solver using computer vision
 
 ## Running The Program
 This program was developed using Google Colab, so that it can be used on any OS or device. In order to run the program correctly, first you need to upload the notes to Google Colab, and then run the required "pip install" commands and restart the runtime environment. Second, you need to upload the desired images, and upload the OCR model attached to the code. Finally, you need to change the name of the image to the corresponding image of your choice here:
-![Code line](.\images\CodeLine.png)
+![Code line](https://github.com/roeylange/SudokuSolver/tree/master/images/CodeLine.png)
 
 ## Project Overview
 Our solution consists of the following steps:
@@ -19,7 +19,7 @@ Our solution consists of the following steps:
 * Image Pre-processing
 * We used OpenCV library to apply various filters to improve the image quality, such as thresholding and blurring.
 
-![Flow chart](.\images\Flowchart.png)
+![Flow chart](https://github.com/roeylange/SudokuSolver/tree/master/images/Flowchart.png)
 
 ### Image Pre-processing
 We used OpenCV library to apply various filters to improve the image quality, such as thresholding and blurring.
@@ -46,24 +46,24 @@ We used an [external](https://github.com/Lakshmi1212/Sudoku_Solver_LP/blob/main/
 
 ## Examples
 The first example is a simple image found online, not rotated or tilted:
- ![First example](.\images\sudoku-not_rotated_3.jpeg)
- ![Contoured image](.\images\sudoku-not_rotated_3_contours.jpeg)
- ![Transformed](.\images\sudoku-not_rotated_3_transformed.jpeg)
- ![Numbers found](.\images\sudoku-not_rotated_3_numbers.jpeg)
- ![Solve](.\images\sudoku-not_rotated_3_sol.jpeg)
+ ![First example](https://github.com/roeylange/SudokuSolver/tree/master/images/sudoku-not_rotated_3.jpeg)
+ ![Contoured image](https://github.com/roeylange/SudokuSolver/tree/master/images/sudoku-not_rotated_3_contours.jpeg)
+ ![Transformed](https://github.com/roeylange/SudokuSolver/tree/master/images/sudoku-not_rotated_3_transformed.jpeg)
+ ![Numbers found](https://github.com/roeylange/SudokuSolver/tree/master/images/sudoku-not_rotated_3_numbers.jpeg)
+ ![Solve](https://github.com/roeylange/SudokuSolver/tree/master/images/sudoku-not_rotated_3_sol.jpeg)
 
 To make a tilt or a rotation of an image, there are several ways: by trying to rotate the image syntactically, or by picturing the image manually under the specified tilt and rotation wanted. In the second case, the tilt and rotation were created using a website found online, that rotates an image syntactically:
- ![Second example](.\images\sudoku-rotated180.png)
- ![Contoured image](.\images\sudoku-rotated180_con.png)
- ![Transformed](.\images\sudoku-rotated180_transformed.png)
- ![Numbers found](.\images\sudoku-rotated180_num.png)
+ ![Second example](https://github.com/roeylange/SudokuSolver/tree/master/images/sudoku-rotated180.png)
+ ![Contoured image](https://github.com/roeylange/SudokuSolver/tree/master/images/sudoku-rotated180_con.png)
+ ![Transformed](https://github.com/roeylange/SudokuSolver/tree/master/images/sudoku-rotated180_transformed.png)
+ ![Numbers found](https://github.com/roeylange/SudokuSolver/tree/master/images/sudoku-rotated180_num.png)
 
 And for the latter case, you can create the picture yourself using an app that captures the picture without any special effects/compression of any kind. For example, Camera Scanner can be used. 
 
- ![Second example](.\images\Right_Side.jpg)
- ![Contoured image](.\images\Right_Side_con.jpg)
- ![Transformed](.\images\Right_Side_transformed.jpg)
- ![Numbers found](.\images\Right_Side_num.jpg)
+ ![Second example](https://github.com/roeylange/SudokuSolver/tree/master/images/Right_Side.jpg)
+ ![Contoured image](https://github.com/roeylange/SudokuSolver/tree/master/images/Right_Side_con.jpg)
+ ![Transformed](https://github.com/roeylange/SudokuSolver/tree/master/images/Right_Side_transformed.jpg)
+ ![Numbers found](https://github.com/roeylange/SudokuSolver/tree/master/images/Right_Side_num.jpg)
 
 
 ## Project Limitations
