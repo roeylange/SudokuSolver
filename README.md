@@ -1,6 +1,6 @@
 # Image-based Sudoku Solver
 ## Introduction
-In this project, we developed an image-based Sudoku solver using computer vision and image processing techniques. The goal was to accurately identify and solve Sudoku puzzles in images.
+In this project, we developed an image-based Sudoku solver using computer vision and image processing techniques. The goal was to accurately identify and solve Sudoku puzzles from images.
 
 ## Running The Program
 This program was developed using Google Colab, so that it can be used on any OS or device. In order to run the program correctly, first you need to upload the notes to Google Colab, and then run the required "pip install" commands and restart the runtime environment. Second, you need to upload the desired images, and upload the OCR model attached to the code. Finally, you need to change the name of the image to the corresponding image of your choice here:
