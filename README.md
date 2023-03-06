@@ -4,7 +4,7 @@ In this project, we developed an image-based Sudoku solver using computer vision
 
 ## Running The Program
 This program was developed using Google Colab, so that it can be used on any OS or device. In order to run the program correctly, first you need to upload the notes to Google Colab, and then run the required "pip install" commands and restart the runtime environment. Second, you need to upload the desired images, and upload the OCR model attached to the code. Finally, you need to change the name of the image to the corresponding image of your choice here:
-![Code line](https://github.com/roeylange/SudokuSolver/tree/master/images/CodeLine.png)
+![Code line](./images/CodeLine.png)
 
 ## Project Overview
 Our solution consists of the following steps:
